@@ -105,4 +105,6 @@ def scrape(l12):
 		f.write(json.dumps(third_level_items))
 
 if __name__ == "__main__":
-	scrape()
+	x=input('Enter State Codes')
+	l=x.split(',')
+	scrape(l)
